@@ -1,0 +1,316 @@
+atlas-ai/
+│
+├── public/
+│   ├── favicon.ico
+│   ├── logo.svg
+│   └── robots.txt
+│
+├── src/
+│
+│   ├── assets/
+│   │
+│   │   ├── images/
+│   │   │   ├── hero/
+│   │   │   ├── destinations/
+│   │   │   ├── categories/
+│   │   │   ├── experiences/
+│   │   │   ├── testimonials/
+│   │   │   └── backgrounds/
+│   │   │
+│   │   ├── icons/
+│   │   ├── videos/
+│   │   └── lottie/
+│   │
+│   ├── components/
+│   │
+│   │   ├── common/
+│   │   │   ├── Button.jsx
+│   │   │   ├── Card.jsx
+│   │   │   ├── Badge.jsx
+│   │   │   ├── SectionTitle.jsx
+│   │   │   ├── Input.jsx
+│   │   │   ├── Select.jsx
+│   │   │   ├── Modal.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   └── GlassCard.jsx
+│   │   │
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Container.jsx
+│   │   │   └── ScrollToTop.jsx
+│   │   │
+│   │   ├── cards/
+│   │   │   ├── DestinationCard.jsx
+│   │   │   ├── ExperienceCard.jsx
+│   │   │   ├── CategoryCard.jsx
+│   │   │   ├── TestimonialCard.jsx
+│   │   │   └── BudgetCard.jsx
+│   │   │
+│   │   ├── planner/
+│   │   │   ├── PlannerForm.jsx
+│   │   │   ├── PlannerResult.jsx
+│   │   │   ├── Timeline.jsx
+│   │   │   └── BudgetSummary.jsx
+│   │   │
+│   │   ├── map/
+│   │   │   ├── WorldMap.jsx
+│   │   │   ├── CountryPopup.jsx
+│   │   │   └── MapControls.jsx
+│   │   │
+│   │   ├── charts/
+│   │   │   ├── BudgetPieChart.jsx
+│   │   │   └── ExpenseBarChart.jsx
+│   │   │
+│   │   └── animations/
+│   │       ├── FloatingPlane.jsx
+│   │       ├── Aurora.jsx
+│   │       ├── Clouds.jsx
+│   │       └── Stars.jsx
+│   │
+│   ├── sections/
+│   │
+│   │   ├── Hero/
+│   │   ├── Destinations/
+│   │   ├── AIPlanner/
+│   │   ├── Map/
+│   │   ├── Categories/
+│   │   ├── BudgetCalculator/
+│   │   ├── Experiences/
+│   │   ├── Testimonials/
+│   │   ├── Newsletter/
+│   │   └── CTA/
+│   │
+│   ├── pages/
+│   │
+│   │   ├── Home.jsx
+│   │   ├── Destinations.jsx
+│   │   ├── DestinationDetails.jsx
+│   │   ├── Planner.jsx
+│   │   ├── Experiences.jsx
+│   │   ├── About.jsx
+│   │   └── NotFound.jsx
+│   │
+│   ├── data/
+│   │
+│   │   ├── destinations.js
+│   │   ├── categories.js
+│   │   ├── testimonials.js
+│   │   ├── experiences.js
+│   │   ├── countries.js
+│   │   └── budgetData.js
+│   │
+│   ├── hooks/
+│   │
+│   │   ├── useScrollAnimation.js
+│   │   ├── useWindowSize.js
+│   │   ├── useCounter.js
+│   │   └── useLocalStorage.js
+│   │
+│   ├── context/
+│   │
+│   │   ├── ThemeContext.jsx
+│   │   └── PlannerContext.jsx
+│   │
+│   ├── services/
+│   │
+│   │   ├── plannerAPI.js
+│   │   ├── mapAPI.js
+│   │   └── weatherAPI.js
+│   │
+│   ├── utils/
+│   │
+│   │   ├── formatCurrency.js
+│   │   ├── calculateBudget.js
+│   │   ├── generateTrip.js
+│   │   └── helpers.js
+│   │
+│   ├── styles/
+│   │
+│   │   ├── globals.css
+│   │   ├── variables.css
+│   │   ├── animations.css
+│   │   └── scrollbar.css
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── routes.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+📑 Website Flow
+Navbar
+        │
+        ▼
+Hero Section
+        │
+        ▼
+Popular Destinations
+        │
+        ▼
+AI Trip Planner
+        │
+        ▼
+Interactive World Map
+        │
+        ▼
+Travel Categories
+        │
+        ▼
+Budget Calculator
+        │
+        ▼
+Trending Experiences
+        │
+        ▼
+Testimonials
+        │
+        ▼
+Newsletter
+        │
+        ▼
+Call To Action
+        │
+        ▼
+Footer
+📱 Routes
+/
+
+Home
+
+
+/destinations
+
+All destinations
+
+
+/destinations/:id
+
+Destination Details
+
+
+/planner
+
+AI Planner
+
+
+/experiences
+
+Experiences
+
+
+/about
+
+About AtlasAI
+
+
+/*
+404 Page
+📦 Component Hierarchy
+App
+
+│
+
+├── Navbar
+
+├── Home
+
+│      │
+
+│      ├── Hero
+
+│      ├── Destinations
+
+│      │      └── DestinationCard
+
+│      │
+
+│      ├── AIPlanner
+
+│      │      ├── PlannerForm
+
+│      │      └── PlannerResult
+
+│      │
+
+│      ├── WorldMap
+
+│      │      └── CountryPopup
+
+│      │
+
+│      ├── Categories
+
+│      │      └── CategoryCard
+
+│      │
+
+│      ├── BudgetCalculator
+
+│      │      └── BudgetChart
+
+│      │
+
+│      ├── Experiences
+
+│      │      └── ExperienceCard
+
+│      │
+
+│      ├── Testimonials
+
+│      │      └── TestimonialCard
+
+│      │
+
+│      ├── Newsletter
+
+│      │
+
+│      └── CTA
+
+│
+
+└── Footer
+🎯 Features to Build (In Order)
+Phase 1 (Foundation)
+Responsive Navbar
+Hero Section
+Footer
+Routing
+Global Theme
+Phase 2 (Content)
+Destination Cards
+Categories
+Experiences
+Testimonials
+Phase 3 (Interactive)
+AI Planner UI (mock logic)
+Budget Calculator
+Animated Counters
+Search Bar
+Phase 4 (Advanced UI)
+Interactive Map
+Charts
+Scroll Animations
+Floating Elements
+Loading Skeletons
+Phase 5 (Polish)
+Dark Mode (optional)
+Page Transitions
+Hover Effects
+Responsive Design
+Performance Optimization
+🛠️ Tech Stack
+React 19
+Vite
+Tailwind CSS
+Framer Motion
+React Router
+React Icons
+Leaflet (Interactive Map)
+Recharts (Charts)
+React CountUp
+Lenis (Smooth Scrolling)
+GSAP (Optional advanced animations)

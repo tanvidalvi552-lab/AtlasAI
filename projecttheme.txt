@@ -1,0 +1,249 @@
+🌍 AtlasAI
+
+Tagline
+
+"Every journey begins with a smarter plan."
+The Idea
+
+Instead of
+Book flights
+the website helps users
+Discover, plan and visualize dream trips with AI.
+Imagine Apple meets Airbnb meets Notion.
+Hero Section
+Huge immersive hero.
+Background:
+Animated mountains
+Floating clouds
+Tiny moving airplane
+Aurora gradient
+Headline
+Discover the World,
+One Intelligent Journey at a Time.
+Subtext
+AI builds personalized itineraries, recommends hidden gems, estimates budgets, and helps you travel smarter.
+Buttons
+Start Exploring
+Watch Demo
+Search card floating
+Where do you want to go?
+Tokyo
+Travel Style
+Adventure
+Budget
+₹80,000
+Generate Trip
+Scroll Animation
+As you scroll,
+the earth slowly rotates.
+Destination cards fade into view.
+Clouds move.
+The navbar becomes glassmorphic.
+Sections
+1. Popular Destinations
+Beautiful cards
+Japan
+Iceland
+Norway
+Switzerland
+Bali
+Each card has
+image
+temperature
+budget
+best season
+rating
+Hover
+Image zooms.
+2. AI Planner
+Looks like ChatGPT.
+
+User types
+
+7 day trip to Italy under ₹1 lakh
+
+AI returns
+
+Rome
+
+Florence
+
+Venice
+
+Budget
+
+Timeline
+
+Hotels
+
+Restaurants
+
+
+Beautiful animated response.
+
+3. Interactive World Map
+
+Hover country
+
+Shows
+
+average budget
+visa requirement
+safety score
+weather
+internet speed
+currency
+
+Even without a real backend, you can use sample data to create a polished experience.
+
+4. Travel Categories
+
+Cards
+
+🏖 Beach
+
+🏔 Mountains
+
+🌌 Northern Lights
+
+🍜 Food
+
+🎒 Backpacking
+
+💎 Luxury
+
+5. AI Budget Calculator
+
+Inputs
+
+Budget
+
+Travelers
+
+Days
+
+Country
+
+Outputs
+
+Flights
+
+Hotels
+
+Food
+
+Activities
+
+Savings Tips
+
+Animated charts.
+
+6. Trending Experiences
+
+Horizontal cards
+
+✔ Hot Air Balloon
+
+✔ Northern Lights
+
+✔ Desert Safari
+
+✔ Scuba Diving
+
+✔ Cherry Blossoms
+
+✔ Safari
+
+7. Testimonials
+
+Glass cards
+
+Photos
+
+Ratings
+
+Animated carousel.
+
+8. Newsletter
+
+Beautiful glowing email input.
+
+Footer
+
+Minimal.
+
+Dark.
+
+Elegant.
+
+Color Palette
+
+Instead of typical blue...
+
+I'd go with
+
+Background
+
+#050816
+
+Primary
+
+#4F8CFF
+
+Secondary
+
+#8B5CF6
+
+Accent
+
+#22D3EE
+
+Text
+
+#FFFFFF
+
+Muted
+
+#94A3B8
+
+Feels futuristic.
+
+Fonts
+
+Headings
+
+Space Grotesk
+
+Body
+
+Inter
+
+Numbers
+
+Outfit
+
+Tech Stack
+React
+Vite
+Tailwind CSS
+Framer Motion
+React Router
+React Icons
+GSAP (optional)
+Leaflet or Mapbox (optional for maps)
+Skills This Demonstrates
+
+Clients will immediately see that you can work with:
+
+Responsive Design
+Component Architecture
+Animations
+Cards
+Modern Layouts
+Forms
+API Integration (even with mock data)
+Performance
+UI/UX
+Portfolio Description
+
+AtlasAI is a premium AI-inspired travel planning platform that helps users discover destinations, visualize itineraries, estimate budgets, and explore curated experiences through a modern interactive interface. Built with React and advanced animations, the project focuses on delivering a seamless user experience while showcasing responsive design, reusable components, and visually engaging storytelling.
